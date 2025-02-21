@@ -35,4 +35,21 @@ print(pessoa["nome"])
 print(pessoa["idade"])
 print(pessoa["cidade"])
 
-#Conjuntos
+#Operações com Conjuntos
+A = {1, 2, 3, 4}
+
+#Funções
+def saudação(nome):
+    print(f"Olá, {nome}!")
+          
+saudação("Jon")
+saudação("Basilio")
+
+def soma(num_1, num_2):
+    return num_1 + num_2
+print(soma(2, 5))
+
+soma(2, 5)
+print(soma(2, 5))
+
+#Programação Orientada a Objetos
